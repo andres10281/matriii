@@ -5,3 +5,9 @@ document.getElementById("no").addEventListener("mouseover", function() {
     button.style.left = Math.random() * (window.innerWidth - button.offsetWidth) + "px";
   });
   
+  
+  document.getElementById("yes").addEventListener("click", function() {
+    const congratsMessage = document.getElementById("congratsMessage");
+    congratsMessage.style.display = "block"; e
+  });
+  
